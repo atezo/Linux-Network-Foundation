@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="ivlnBCHk_ySw8fJwXk8H">
-    <mxGraphModel dx="1165" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,56 +13,34 @@
         <mxCell id="NzKNKS0BAN_RKBmFPWDF-88" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;font size=&quot;1&quot;&gt;Admin&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;192.168.52.11/24&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;macOS&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="73" width="120" x="20" y="439.5" as="geometry" />
         </mxCell>
+        <mxCell id="NzKNKS0BAN_RKBmFPWDF-174" edge="1" parent="1" source="NzKNKS0BAN_RKBmFPWDF-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="NzKNKS0BAN_RKBmFPWDF-169">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="585" />
+              <mxPoint x="510" y="689.95" />
+              <mxPoint x="380" y="689.95" />
+              <mxPoint x="380" y="729.95" />
+            </Array>
+            <mxPoint x="380" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NzKNKS0BAN_RKBmFPWDF-112" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.servers.server_with_router;" value="" vertex="1">
           <mxGeometry height="64" width="38" x="706" y="553" as="geometry" />
-        </mxCell>
-        <mxCell id="NzKNKS0BAN_RKBmFPWDF-154" edge="1" parent="1" source="NzKNKS0BAN_RKBmFPWDF-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NzKNKS0BAN_RKBmFPWDF-117">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="550.06" y="677.06" />
-              <mxPoint x="550.06" y="530" />
-            </Array>
-            <mxPoint x="540" y="530" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NzKNKS0BAN_RKBmFPWDF-155" edge="1" parent="1" source="NzKNKS0BAN_RKBmFPWDF-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.38;entryY=1.063;entryDx=0;entryDy=0;entryPerimeter=0;" target="NzKNKS0BAN_RKBmFPWDF-121">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="725" y="838.47" />
-              <mxPoint x="730.06" y="838.47" />
-              <mxPoint x="730.06" y="950" />
-              <mxPoint x="225.59" y="950" />
-            </Array>
-            <mxPoint x="220" y="920" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="NzKNKS0BAN_RKBmFPWDF-113" parent="1" style="whiteSpace=wrap;html=1;" value="192.168.1.1&lt;div&gt;ubuntu server&lt;/div&gt;&lt;div&gt;observer&lt;/div&gt;&lt;div&gt;siem&lt;/div&gt;&lt;div&gt;grafana&lt;/div&gt;&lt;div&gt;suricata&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="150" x="650" y="627" as="geometry" />
         </mxCell>
+        <mxCell id="NzKNKS0BAN_RKBmFPWDF-173" edge="1" parent="1" source="NzKNKS0BAN_RKBmFPWDF-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NzKNKS0BAN_RKBmFPWDF-169" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NzKNKS0BAN_RKBmFPWDF-115" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.servers.fileserver;" value="" vertex="1">
           <mxGeometry height="62" width="43" x="473" y="750" as="geometry" />
         </mxCell>
-        <mxCell id="NzKNKS0BAN_RKBmFPWDF-152" edge="1" parent="1" source="NzKNKS0BAN_RKBmFPWDF-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="NzKNKS0BAN_RKBmFPWDF-115">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="350.06" y="751.53" />
-              <mxPoint x="350.06" y="810" />
-              <mxPoint x="430.06" y="810" />
-              <mxPoint x="430.06" y="780.94" />
-            </Array>
-            <mxPoint x="430" y="780" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="NzKNKS0BAN_RKBmFPWDF-172" edge="1" parent="1" source="NzKNKS0BAN_RKBmFPWDF-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NzKNKS0BAN_RKBmFPWDF-169" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NzKNKS0BAN_RKBmFPWDF-116" parent="1" style="strokeColor=#ffffff;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.servers.storage_server;" value="" vertex="1">
           <mxGeometry height="83" width="54" x="213" y="710" as="geometry" />
-        </mxCell>
-        <mxCell id="NzKNKS0BAN_RKBmFPWDF-122" edge="1" parent="1" source="NzKNKS0BAN_RKBmFPWDF-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NzKNKS0BAN_RKBmFPWDF-116">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NzKNKS0BAN_RKBmFPWDF-151" edge="1" parent="1" source="NzKNKS0BAN_RKBmFPWDF-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="NzKNKS0BAN_RKBmFPWDF-115">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="545.9999999999998" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="NzKNKS0BAN_RKBmFPWDF-157" edge="1" parent="1" source="NzKNKS0BAN_RKBmFPWDF-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="NzKNKS0BAN_RKBmFPWDF-128">
           <mxGeometry relative="1" as="geometry" />
@@ -71,7 +49,7 @@
           <mxGeometry height="67" width="66" x="355.5" y="512.5" as="geometry" />
         </mxCell>
         <mxCell id="NzKNKS0BAN_RKBmFPWDF-120" parent="1" style="whiteSpace=wrap;html=1;" value="192.168.4.1/24&lt;div&gt;docker container&amp;nbsp;&lt;/div&gt;&lt;div&gt;web suite&lt;/div&gt;&lt;div&gt;domain: www.suite.com&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="120" x="328.5" y="600" as="geometry" />
+          <mxGeometry height="80" width="120" x="328.5" y="579.5" as="geometry" />
         </mxCell>
         <mxCell id="NzKNKS0BAN_RKBmFPWDF-121" parent="1" style="whiteSpace=wrap;html=1;" value="data base server&lt;div&gt;ubuntu server&lt;/div&gt;&lt;div&gt;192.168.2.2/24&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="180" y="800" as="geometry" />
@@ -82,9 +60,6 @@
         <mxCell id="NzKNKS0BAN_RKBmFPWDF-128" parent="1" style="whiteSpace=wrap;html=1;" value="Cloude | Ethernet" vertex="1">
           <mxGeometry height="60" width="120" x="250" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="NzKNKS0BAN_RKBmFPWDF-153" edge="1" parent="1" source="NzKNKS0BAN_RKBmFPWDF-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="NzKNKS0BAN_RKBmFPWDF-115">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="NzKNKS0BAN_RKBmFPWDF-158" edge="1" parent="1" source="NzKNKS0BAN_RKBmFPWDF-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="NzKNKS0BAN_RKBmFPWDF-117">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -94,16 +69,13 @@
         <mxCell id="NzKNKS0BAN_RKBmFPWDF-159" parent="1" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=firewall;fillColor=#FAFAFA;strokeColor=#005073;" value="" vertex="1">
           <mxGeometry height="50" width="64" x="356" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="NzKNKS0BAN_RKBmFPWDF-160" edge="1" parent="1" source="NzKNKS0BAN_RKBmFPWDF-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="NzKNKS0BAN_RKBmFPWDF-159">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="NzKNKS0BAN_RKBmFPWDF-162" edge="1" parent="1" source="NzKNKS0BAN_RKBmFPWDF-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="NzKNKS0BAN_RKBmFPWDF-163" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140" y="476" as="sourcePoint" />
             <mxPoint x="356" y="435" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NzKNKS0BAN_RKBmFPWDF-164" edge="1" parent="1" source="NzKNKS0BAN_RKBmFPWDF-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="NzKNKS0BAN_RKBmFPWDF-163" value="">
+        <mxCell id="NzKNKS0BAN_RKBmFPWDF-164" edge="1" parent="1" source="NzKNKS0BAN_RKBmFPWDF-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="NzKNKS0BAN_RKBmFPWDF-163" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="356" y="435" as="sourcePoint" />
             <mxPoint x="140" y="476" as="targetPoint" />
@@ -111,6 +83,9 @@
         </mxCell>
         <mxCell id="NzKNKS0BAN_RKBmFPWDF-163" parent="1" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.virtual_private_network;" value="" vertex="1">
           <mxGeometry height="43" width="43" x="213" y="454.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NzKNKS0BAN_RKBmFPWDF-169" parent="1" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=l3_switch;fillColor=#FAFAFA;strokeColor=#005073;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="370" y="730" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
