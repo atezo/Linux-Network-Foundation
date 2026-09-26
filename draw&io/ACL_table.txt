@@ -1,0 +1,5 @@
+Cloud -> web 192.168.4.1/24 443p - client  
+Admin -> Bastion 22p - admin
+Bastion -> web 192.168.4.1/24 22p - admin
+Web -> Core_switch 22p - admin 
+Core_switch -> 192.168.2.2 | 192.168.3.1 | 192.168.1.1 
